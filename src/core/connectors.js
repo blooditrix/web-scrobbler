@@ -1191,5 +1191,9 @@ define(function() {
 		label: 'Hotmixradio.fr',
 		matches: ['*://hotmixradio.fr/*', '*://www.hotmixradio.fr/*'],
 		js: ['connectors/hotmixradio.js'],
+	}, {
+		label: 'YouTube Music',
+		matches: ['*://music.youtube.com/*'],
+		js: ['connectors/youtube-music.js']
 	}];
 });
